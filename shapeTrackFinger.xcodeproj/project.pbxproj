@@ -33,10 +33,6 @@
 		ED3732B01551E250003462B3 /* C4LogoiPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3732AF1551E250003462B3 /* C4LogoiPad-Landscape.png */; };
 		ED3732B21551E250003462B3 /* C4LogoiPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3732B11551E250003462B3 /* C4LogoiPad-Portrait.png */; };
 		ED3732CF1551E251003462B3 /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3732CE1551E251003462B3 /* libC4.a */; };
-		ED3732D21551E251003462B3 /* C4Loop.aif in Resources */ = {isa = PBXBuildFile; fileRef = ED3732D11551E251003462B3 /* C4Loop.aif */; };
-		ED3732D41551E251003462B3 /* C4Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3732D31551E251003462B3 /* C4Sky.png */; };
-		ED3732D61551E251003462B3 /* C4Table.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3732D51551E251003462B3 /* C4Table.png */; };
-		ED3732D81551E251003462B3 /* inception.mov in Resources */ = {isa = PBXBuildFile; fileRef = ED3732D71551E251003462B3 /* inception.mov */; };
 		ED3732E01551E271003462B3 /* MyShape.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3732DF1551E271003462B3 /* MyShape.m */; };
 /* End PBXBuildFile section */
 
@@ -98,10 +94,6 @@
 		ED3732CC1551E250003462B3 /* C4Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = C4Window.h; path = Headers/C4Window.h; sourceTree = "<group>"; };
 		ED3732CD1551E250003462B3 /* UITouch+C4Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITouch+C4Touch.h"; path = "Headers/UITouch+C4Touch.h"; sourceTree = "<group>"; };
 		ED3732CE1551E251003462B3 /* libC4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libC4.a; path = Library/libC4.a; sourceTree = "<group>"; };
-		ED3732D11551E251003462B3 /* C4Loop.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = C4Loop.aif; path = Media/C4Loop.aif; sourceTree = "<group>"; };
-		ED3732D31551E251003462B3 /* C4Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Sky.png; path = Media/C4Sky.png; sourceTree = "<group>"; };
-		ED3732D51551E251003462B3 /* C4Table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = C4Table.png; path = Media/C4Table.png; sourceTree = "<group>"; };
-		ED3732D71551E251003462B3 /* inception.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = inception.mov; path = Media/inception.mov; sourceTree = "<group>"; };
 		ED3732DE1551E271003462B3 /* MyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyShape.h; sourceTree = "<group>"; };
 		ED3732DF1551E271003462B3 /* MyShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyShape.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -245,10 +237,6 @@
 		ED3732D01551E251003462B3 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				ED3732D11551E251003462B3 /* C4Loop.aif */,
-				ED3732D31551E251003462B3 /* C4Sky.png */,
-				ED3732D51551E251003462B3 /* C4Table.png */,
-				ED3732D71551E251003462B3 /* inception.mov */,
 			);
 			name = Media;
 			sourceTree = "<group>";
@@ -316,10 +304,6 @@
 				ED3732AE1551E250003462B3 /* C4LogoiPad-08.png in Resources */,
 				ED3732B01551E250003462B3 /* C4LogoiPad-Landscape.png in Resources */,
 				ED3732B21551E250003462B3 /* C4LogoiPad-Portrait.png in Resources */,
-				ED3732D21551E251003462B3 /* C4Loop.aif in Resources */,
-				ED3732D41551E251003462B3 /* C4Sky.png in Resources */,
-				ED3732D61551E251003462B3 /* C4Table.png in Resources */,
-				ED3732D81551E251003462B3 /* inception.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +431,7 @@
 				ED3732DD1551E251003462B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
